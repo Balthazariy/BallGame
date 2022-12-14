@@ -24,6 +24,9 @@ namespace Chebureck.Scenes
         private void Start()
         {
             _pauseButton.onClick.AddListener(PauseButtonOnClickHandler);
+
+            PausePage.Instance.Hide();
+            GameOverPage.Instance.Hide();
         }
 
         #region Button Handlers
@@ -31,7 +34,7 @@ namespace Chebureck.Scenes
         {
             SoundManager.Instance.PlayClickSound();
             PauseController.Instance.ActivePause();
-            PauseScreen.Instance.Show();
+            PausePage.Instance.Show();
         }
         #endregion
     }

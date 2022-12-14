@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 namespace Chebureck.Screens
 {
-    public class PauseScreen : MonoBehaviour
+    public class PausePage : MonoBehaviour
     {
-        public static PauseScreen Instance { get; private set; }
+        public static PausePage Instance { get; private set; }
 
         [SerializeField] private Button _backToMenuButton;
         [SerializeField] private Button _closeButton;

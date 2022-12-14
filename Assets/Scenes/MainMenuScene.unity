@@ -2092,7 +2092,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1292796864}
   - component: {fileID: 1292796867}
-  - component: {fileID: 1292796866}
   - component: {fileID: 1292796865}
   m_Layer: 5
   m_Name: MainPage
@@ -2135,26 +2134,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!95 &1292796866
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1292796863}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ba07ea34e20bfbd48a26560152421873, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1292796867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3411,7 +3390,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2128041944}
   - component: {fileID: 2128041947}
-  - component: {fileID: 2128041946}
   - component: {fileID: 2128041945}
   m_Layer: 5
   m_Name: SettingsPage
@@ -3454,26 +3432,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!95 &2128041946
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2128041943}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ab37f21e1bc47074b8732331c5cdfe84, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &2128041947
 MonoBehaviour:
   m_ObjectHideFlags: 0
